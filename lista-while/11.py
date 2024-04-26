@@ -17,10 +17,9 @@ print(f"Começando a verificar a partir de {start} até {end}, que elimina {((nu
 if num > 2:
     curr = start
     while True:
-        _i = curr
-        if num % _i == 0:
-            print(f"O número '{num}' não é primo! Ele é divisivel por '{_i}'")
-            print(f"{num} / {_i} = {int(num / _i)}")
+        if num % curr == 0:
+            print(f"O número '{num}' não é primo! Ele é divisivel por '{curr}'")
+            print(f"{num} / {curr} = {int(num / curr)}")
             break
 
         if curr % 10000 == 0:

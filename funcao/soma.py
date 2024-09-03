@@ -1,9 +1,20 @@
+variavel_que_vai_guardar_o_numero_zero = 0
+variavel_que_vai_guardar_o_numero_um = 1
+variavel_que_vai_guardar_o_numero_dois = 2
+variavel_que_vai_guardar_o_numero_doze = 12
+variavel_que_vai_guardar_o_numero_vinte_e_tres = 23
+variavel_que_vai_guardar_o_numero_vinte_e_um = 21
+
+
 def funcao_para_retornar_o_numero_inicial_da_soma_da_funcao_de_somar_numeros_que_estao_em_uma_lista_de_numeros():
-    return 0
+    return variavel_que_vai_guardar_o_numero_zero
 
 
 def funcao_para_retornar_a_lista_de_numeros_que_vou_passar_para_a_funcao_de_somar_numeros_que_estao_em_uma_lista_de_numeros():
-    return [1, 12, 23, 21, 23, 1, 2]
+    return [variavel_que_vai_guardar_o_numero_um, variavel_que_vai_guardar_o_numero_doze,
+            variavel_que_vai_guardar_o_numero_vinte_e_tres, variavel_que_vai_guardar_o_numero_vinte_e_um,
+            variavel_que_vai_guardar_o_numero_vinte_e_tres, variavel_que_vai_guardar_o_numero_um,
+            variavel_que_vai_guardar_o_numero_dois]
 
 
 def funcao_pra_somar_numeros_que_estao_em_uma_lista_de_numeros(lista_de_numeros_que_foi_passada_para_a_funcao):
